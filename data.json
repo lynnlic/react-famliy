@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "第一本",
+      "author": "Jack",
+      "id": 1
+    },
+    {
+      "title": "第二本",
+      "author": "Tom",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

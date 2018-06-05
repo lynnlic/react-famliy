@@ -1,0 +1,24 @@
+.page-box {
+    border: 1px solid red;
+}
+.page {
+    background-color: thistle;
+    overflow: hidden;/*1.起到禁用margin collapse，使得子模块page-table拥有margin-top（见clearance）*/
+    margin: 20px 10px;
+}
+.page-search {
+    border: 1px solid turquoise;
+    float: left;
+    margin: 10px 60px;
+}
+.page-button {
+    border: 1px solid orange;
+    float: left;
+    
+}
+.page-table {
+    border: 1px solid lightcoral;
+    margin: 30px 60px;
+    /* margin: 70px 40px;1.margin-top为70px，包含被顶部覆盖的距离 */
+    /* clear: both;2.清除前两个div的float属性影响，否则会被部分覆盖 */
+}

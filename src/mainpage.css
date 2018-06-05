@@ -1,0 +1,11 @@
+.header {
+    background:rgb(17, 83, 83)
+}
+.content {
+    width: 100%;
+    height: 700px;
+    border: 1px solid red;
+}
+.footer {
+    border: 1px solid yellow;
+}
